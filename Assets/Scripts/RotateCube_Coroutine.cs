@@ -13,6 +13,7 @@ public class RotateCube_Coroutine : MonoBehaviour
     
     public void Spin()
     {
+        if(_currentlyRunningCoroutine != null) StopCoroutine(_currentlyRunningCoroutine);
         _currentlyRunningCoroutine = StartCoroutine(SpinCoroutine());
     }
     

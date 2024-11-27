@@ -16,6 +16,8 @@ public class RotateCube : MonoBehaviour
 
     public void Spin()
     {
+        if(_token != null) _token.Cancel();
+        
         _token = new();
         SpinAsync().Forget();
     }

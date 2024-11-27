@@ -456,51 +456,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &716689265
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 716689267}
-  - component: {fileID: 716689266}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &716689266
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 716689265}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5f019a0e6fd5b848bb5bd58d48da105, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _numOfBuildings: 600
---- !u!4 &716689267
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 716689265}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &922456078
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,7 +705,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1009404169}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3be4b5c2aa7eac1408b46f01cf0c1c19, type: 3}
+  m_Script: {fileID: 11500000, guid: 234e6665c8d918d4cacc4d580d756761, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1214244743
@@ -940,7 +895,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1009404174}
-        m_TargetAssemblyTypeName: RotateCube, Assembly-CSharp
+        m_TargetAssemblyTypeName: RotateCube_Coroutine, Assembly-CSharp
         m_MethodName: StopSpin
         m_Mode: 1
         m_Arguments:
@@ -1477,7 +1432,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1009404174}
-        m_TargetAssemblyTypeName: RotateCube, Assembly-CSharp
+        m_TargetAssemblyTypeName: RotateCube_Coroutine, Assembly-CSharp
         m_MethodName: Spin
         m_Mode: 1
         m_Arguments:
@@ -1537,4 +1492,3 @@ SceneRoots:
   - {fileID: 1009404173}
   - {fileID: 1214244747}
   - {fileID: 37956248}
-  - {fileID: 716689267}
